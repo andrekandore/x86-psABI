@@ -504,6 +504,10 @@ zero\footnote{Other bits are left unspecified, hence the consumer
 side of those values can rely on it being 0 or 1 when truncated to 8
 bit.}.
 
+When a value of type signed/unsigned \code{char} or \code{short}
+is returned or passed in a register or on the stack, it should be
+sign/zero extended to signed/unsigned \code{int}.
+
 \begin{figure}
 \Hrule
   \caption{Register Usage}
