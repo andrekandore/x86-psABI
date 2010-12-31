@@ -1,5 +1,9 @@
 2010-12-31  H.J. Lu  <hongjiu.lu@intel.com>
 
+	* low-level-sys-info.tex: Update how char/short is returned.
+
+2010-12-31  H.J. Lu  <hongjiu.lu@intel.com>
+
 	* low-level-sys-info.tex: Update how _Bool is passed.
 
 2010-12-31  H.J. Lu  <hongjiu.lu@intel.com>
